@@ -1,4 +1,4 @@
-(defproject com.keminglabs/cljx "0.1.4"
+(defproject com.keminglabs/cljx "0.1.5-SNAPSHOT"
 
   :description "Static Clojure code rewriting"
   :url "http://github.com/lynaghk/cljx"
@@ -7,6 +7,7 @@
 
   :dependencies [[org.clojure/core.logic "0.7.0"]
                  [jonase/kibit "0.0.3"]
-                 [watchtower "0.1.1"]]
+                 [watchtower "0.1.1"]
+                 [org.clojars.trptcolin/sjacket "0.1.1"]]
 
   :eval-in-leiningen true)
